@@ -1,0 +1,6 @@
+liquidsoap 'output.icecast(%vorbis, 
+							host = "www.phynd.net", 
+							port=8000, 
+							password="pUqak3X4K3$$", 
+							mount= "aeiou.ogg", 
+							mksafe(playlist("/Users/AE/radio/radio.m3u8")))'
